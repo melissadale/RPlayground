@@ -1,7 +1,6 @@
 library(wordcloud2)
 library(tm)
 
-setwd("~/RPlayground")
 MyData <- read.csv(file="most_startrek_script_lines.csv", header=TRUE, sep=",")
 
 max_words <- 50
